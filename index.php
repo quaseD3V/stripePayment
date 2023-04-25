@@ -216,7 +216,7 @@
             <div class="bottom-buttons">
                 <div class="flex-container">
                     <form action="action.php" method="POST"><!-- Edit the name data in the stripe script -->
-                        <script src="https://checkout.stripe.com/checkout.js" class="stripe-button" data-key="pk_live_51KrPHuFp8Jk8Q2hPQ0IaWMlmYKhEN8z0KLJAoTRkz4zu4pXgZNA2aQGcwOGYoAxdOWqS4rpvkDrlOEE4GH7CM4kY00WRNQfxfB" data-image="./images/ico.png" data-name="Obzkure - Very Hard" data-description="After checkout the download will automatically start" data-amount="{{ORDER_AMOUNT}}" data-currency="usd" data-label="BUY HERE!"></script>
+                        <script src="https://checkout.stripe.com/checkout.js" class="stripe-button" data-key="put your pk_stripe here between quotes" data-image="./images/ico.png" data-name="Obzkure - Very Hard" data-description="After checkout the download will automatically start" data-amount="{{ORDER_AMOUNT}}" data-currency="usd" data-label="BUY HERE!"></script>
                     </form>
                 </div>
             </div>
