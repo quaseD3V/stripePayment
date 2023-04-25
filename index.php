@@ -174,35 +174,7 @@
 
             </div>
 
-            <script>
-                const music = new Audio('player/Obzkure - Very Hard.mp3') // <----   edit the name of song
-                var playng = false
-
-                function PLAY() {
-
-                    document.getElementById('play').style.display = 'none'
-                    document.getElementById('pause').style.display = 'block'
-                }
-
-                function PAUSE() {
-
-                    document.getElementById('play').style.display = 'block'
-                    document.getElementById('pause').style.display = 'none'
-                }
-
-                music.addEventListener("canplaythrough", (event) => {
-                    music.play()
-
-                })
-
-                music.addEventListener("canplaythrough", (event) => {
-                    music.pause()
-
-                })
-
-                music.loop = false;
-                music.playbackRate = 1;
-            </script>
+          
 
 
         </div>
